@@ -1,13 +1,13 @@
 package com.rickbala;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        for (int i=0; i<3; i++){
+        	System.out.println( "Hello World!" );
+        }
+        boolean isStudying = true;
+        System.out.println(isStudying);
     }
 }
